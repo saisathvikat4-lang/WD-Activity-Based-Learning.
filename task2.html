@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Academic Dashboard</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="dashboard">
+
+        <aside class="sidebar">
+            <h2>🎓 Student Portal</h2>
+            <a href="#home">🏠 Dashboard</a>
+            <a href="#profile">👤 Student Details</a>
+            <a href="#results">📊 Semester Results</a>
+            <a href="#attendance">📅 Attendance</a>
+            <a href="#subjects">📚 Subjects</a>
+            <a href="#exams">📝 Exam Schedule</a>
+            <a href="#announcements">📢 Announcements</a>
+        </aside>
+
+        <main class="main-content" id="home">
+            <header>
+                <div>
+                    <h1>Academic Dashboard</h1>
+                    <p>Welcome back, Student!</p>
+                </div>
+                <div class="profile">👩‍🎓 Saisathvika</div>
+            </header>
+
+            <section class="student-card" id="profile">
+                <div class="student-icon">👩‍🎓</div>
+                <div>
+                    <h2>Saisathvika T</h2>
+                    <p>Roll Number: 26CSE101</p>
+                    <p>Branch: Computer Science Engineering</p>
+                    <p>Semester: I | Academic Year: 2026–2027</p>
+                </div>
+            </section>
+
+            <section class="stats">
+                <div class="card">
+                    <h3>Total Subjects</h3>
+                    <p class="number">6</p>
+                </div>
+                <div class="card">
+                    <h3>Attendance</h3>
+                    <p class="number">92%</p>
+                </div>
+                <div class="card">
+                    <h3>Semester GPA</h3>
+                    <p class="number">8.7</p>
+                </div>
+                <div class="card">
+                    <h3>Upcoming Exams</h3>
+                    <p class="number">3</p>
+                </div>
+            </section>
+
+            <section class="panel" id="results">
+                <h2>Semester Results</h2>
+                <table>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr><td>Mathematics</td><td>88/100</td><td>A</td></tr>
+                    <tr><td>Physics</td><td>85/100</td><td>A</td></tr>
+                    <tr><td>Programming</td><td>92/100</td><td>A+</td></tr>
+                    <tr><td>English</td><td>80/100</td><td>A</td></tr>
+                    <tr><td>Basic Electronics</td><td>78/100</td><td>B+</td></tr>
+                </table>
+                <p class="note">Note: Sample results for demonstration.</p>
+            </section>
+
+            <section class="panel" id="attendance">
+                <h2>Attendance Overview</h2>
+
+                <div class="attendance-item">
+                    <span>Mathematics</span>
+                    <span>95%</span>
+                    <div class="progress"><div class="fill" style="width:95%"></div></div>
+                </div>
+
+                <div class="attendance-item">
+                    <span>Physics</span>
+                    <span>90%</span>
+                    <div class="progress"><div class="fill" style="width:90%"></div></div>
+                </div>
+
+                <div class="attendance-item">
+                    <span>Programming</span>
+                    <span>96%</span>
+                    <div class="progress"><div class="fill" style="width:96%"></div></div>
+                </div>
+
+                <div class="attendance-item">
+                    <span>English</span>
+                    <span>88%</span>
+                    <div class="progress"><div class="fill" style="width:88%"></div></div>
+                </div>
+            </section>
+
+            <section class="panel" id="subjects">
+                <h2>Subject Information</h2>
+                <div class="subject-grid">
+                    <div class="subject">
+                        <h3>Mathematics</h3>
+                        <p>Code: MATH101</p>
+                        <p>Credits: 4</p>
+                    </div>
+                    <div class="subject">
+                        <h3>Physics</h3>
+                        <p>Code: PHY101</p>
+                        <p>Credits: 3</p>
+                    </div>
+                    <div class="subject">
+                        <h3>Python Programming</h3>
+                        <p>Code: CSE101</p>
+                        <p>Credits: 4</p>
+                    </div>
+                    <div class="subject">
+                        <h3>English</h3>
+                        <p>Code: ENG101</p>
+                        <p>Credits: 2</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel" id="exams">
+                <h2>Examination Schedule</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr><td>10-11-2026</td><td>Mathematics</td><td>9 AM</td></tr>
+                    <tr><td>12-11-2026</td><td>Physics</td><td>9 AM</td></tr>
+                    <tr><td>14-11-2026</td><td>Python</td><td>9 AM</td></tr>
+                    <tr><td>16-11-2026</td><td>English</td><td>9 AM</td></tr>
+                </table>
+                <p class="note">Exam dates are illustrative; confirm with your college.</p>
+            </section>
+
+            <section class="panel" id="announcements">
+                <h2>Announcements</h2>
+                <div class="announcement">
+                    <h3>📢 Assignment Submission</h3>
+                    <p>Submit Python assignments before the announced deadline.</p>
+                </div>
+                <div class="announcement">
+                    <h3>📢 Internal Examinations</h3>
+                    <p>Check the official timetable for internal examination dates.</p>
+                </div>
+                <div class="announcement">
+                    <h3>📢 Library Notice</h3>
+                    <p>Return borrowed books before their due dates.</p>
+                </div>
+            </section>
+
+            <footer>
+                <p>© 2026 Student Academic Dashboard | All Rights Reserved</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
